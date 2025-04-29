@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wish List</title>
+    <link rel="stylesheet" href="wishlist.css">
+</head>
+<body>
+    <div id="listPage" class="print">
+
+        <h1>My Wish List</h1>
+      
+        <div id="formArea">
+          <label>What I want:
+            <input type="text" id="iWant" />
+          </label>
+          <button type="button" id="addIt">Add to my list</button>
+          <br>
+          <button type="button" id="printable">Print Your List</button>
+        </div>
+        <h3>My list</h3>
+        <ul id="wishList"></ul>
+      </div>
+
+      <div id="herListPage" class="herPrint">
+
+        <h1>Her Wish List</h1>
+      
+        <div id="herFormArea">
+          <label>What she wants:
+            <input type="text" id="sheWants" />
+          </label>
+          <button type="button" id="newButton">Add to her list</button>
+          <br>
+          <button type="button" id="herPrintable">Print Her List</button>
+        </div>
+        <h3>Her list</h3>
+        <ul id="herWishList"></ul>
+      </div>
+      
+    <script src="wishlist.js"></script>
+</body>
+</html>
